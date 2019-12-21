@@ -5,6 +5,6 @@ WORKDIR /site
 ADD test /site/test
 RUN mkdir -p /data
 VOLUME /data
-CMD bash -c "cd /site/test; python3 app.py 8080 argument; python3 counter.py“
+CMD bash -c "cd /site/test; python3 app.py 8080 argument; python3 counter.py"
 EXPOSE 8080
 
