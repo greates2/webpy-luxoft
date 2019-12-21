@@ -1,4 +1,4 @@
-FROM python:latest 
+FROM python:3.6
 RUN pip install web.py==0.40.dev0 
 RUN mkdir -p /site
 WORKDIR /site
